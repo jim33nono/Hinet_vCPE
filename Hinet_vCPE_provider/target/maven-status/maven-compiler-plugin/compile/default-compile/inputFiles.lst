@@ -1,0 +1,12 @@
+/Users/walleat/Documents/workspace/hinetpoc/src/main/java/org/yesee/hinetpoc/web/controller/LoginController.java
+/Users/walleat/Documents/workspace/hinetpoc/src/main/java/org/yesee/hinetpoc/model/dao/UserInfoDao.java
+/Users/walleat/Documents/workspace/hinetpoc/src/main/java/org/yesee/hinetpoc/util/Const.java
+/Users/walleat/Documents/workspace/hinetpoc/src/main/java/org/yesee/hinetpoc/configuration/PocWebConfiguration.java
+/Users/walleat/Documents/workspace/hinetpoc/src/main/java/org/yesee/hinetpoc/web/controller/ApplyController.java
+/Users/walleat/Documents/workspace/hinetpoc/src/main/java/org/yesee/hinetpoc/web/vo/UserInfoVo.java
+/Users/walleat/Documents/workspace/hinetpoc/src/main/java/org/yesee/hinetpoc/configuration/MySitemeshFilter.java
+/Users/walleat/Documents/workspace/hinetpoc/src/main/java/org/yesee/hinetpoc/configuration/PocConfiguration.java
+/Users/walleat/Documents/workspace/hinetpoc/src/main/java/org/yesee/hinetpoc/configuration/AppInitializer.java
+/Users/walleat/Documents/workspace/hinetpoc/src/main/java/org/yesee/hinetpoc/web/controller/ActivateController.java
+/Users/walleat/Documents/workspace/hinetpoc/src/main/java/org/yesee/hinetpoc/model/bean/UserInfo.java
+/Users/walleat/Documents/workspace/hinetpoc/src/main/java/org/yesee/hinetpoc/model/service/UserInfoService.java

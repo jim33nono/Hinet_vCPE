@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/drcorate">
+
+<!-- 	<decorator name="base" page="main.jsp"> -->
+<!-- 		<pattern>/apply/*</pattern> -->
+<!-- 		<pattern>/activate/*</pattern> -->
+<!-- 	</decorator> -->
+</decorators>

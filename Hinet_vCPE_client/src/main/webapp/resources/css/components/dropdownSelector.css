@@ -1,0 +1,8 @@
+.dropdownSelector .dropdown {
+  display: inline-block;
+}
+.dropdownSelector .dropdown span.text {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

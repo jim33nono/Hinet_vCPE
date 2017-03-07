@@ -1,0 +1,27 @@
+.reportSearchFormContainer {
+  .panel-heading-btn.form-horizontal {
+    > .dropdown-menu {
+      width: 500px;
+      max-height: 300px;
+      overflow-y: auto;
+      left: initial;
+      right: 0;
+      padding: 15px;
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: -11px;
+        right: 25px;
+        display: inline-block;
+        border-right: 11px solid transparent;
+        border-bottom: 11px solid #fff;
+        border-left: 11px solid transparent;
+      }
+    }
+  }
+  
+  .panel-body {
+    min-height: 400px;
+  }
+}

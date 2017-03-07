@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="org.yesee.Hinet_vCPE_for_client.web.controller.LoginControllerTest" duration-ms="3" started-at="2016-10-17T06:11:49Z" finished-at="2016-10-17T06:11:49Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="3" started-at="2016-10-17T06:11:49Z" finished-at="2016-10-17T06:11:49Z">
+    </test> <!-- Command line test -->
+  </suite> <!-- org.yesee.Hinet_vCPE_for_client.web.controller.LoginControllerTest -->
+</testng-results>

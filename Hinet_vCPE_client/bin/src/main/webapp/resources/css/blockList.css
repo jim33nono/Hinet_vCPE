@@ -1,0 +1,19 @@
+#blockList .panel-heading-btn.form-horizontal > .dropdown-menu {
+  width: 800px;
+  left: initial;
+  right: 0;
+  padding: 15px;
+}
+#blockList .panel-heading-btn.form-horizontal > .dropdown-menu:before {
+  content: '';
+  position: absolute;
+  top: -11px;
+  right: 25px;
+  display: inline-block;
+  border-right: 11px solid transparent;
+  border-bottom: 11px solid #fff;
+  border-left: 11px solid transparent;
+}
+#blockList .panel-body {
+  min-height: 400px;
+}

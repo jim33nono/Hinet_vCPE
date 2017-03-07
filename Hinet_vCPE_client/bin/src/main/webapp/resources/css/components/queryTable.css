@@ -1,0 +1,88 @@
+#tableRearrangeSample {
+  position: fixed;
+  z-index: 1000;
+  padding: 8px;
+  height: 38px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border: 1px solid #000;
+  background: #fff;
+  cursor: move;
+}
+.queryTable div.tableWrapper {
+  width: 100%;
+  overflow-x: auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.queryTable table.table {
+  margin: auto;
+  width: auto;
+  table-layout: fixed;
+}
+.queryTable table.table .sortable {
+  cursor: pointer;
+}
+.queryTable table.table th {
+  text-align: center;
+}
+.queryTable table.table th,
+.queryTable table.table td {
+  padding: 0;
+  vertical-align: middle;
+}
+.queryTable table.table div.gridWrapper {
+  position: relative;
+  padding: 8px;
+  width: 100%;
+  height: 38px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.queryTable table.table div.gridWrapper .glyphicon {
+  position: absolute;
+  right: 5px;
+  top: 11px;
+}
+.queryTable table.table div.gridWrapper span.columnHandler {
+  display: inline-block;
+  width: 4px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: transparent;
+}
+.queryTable table.table div.gridWrapper span.columnHandler.firstColumn {
+  right: initial;
+  left: 0;
+}
+.queryTable table.table div.gridWrapper span.columnHandler.resizeable {
+  cursor: col-resize;
+}
+.queryTable table.table div.gridWrapper span.columnHandler.rearrangeTarget {
+  background: #00f;
+}
+.queryTable .yic-pagination {
+  text-align: center;
+}
+.queryTable .yic-pagination .pagination {
+  margin: 0;
+}
+.queryTable .yic-pagination .pagination >li >a {
+  float: none;
+}
+.queryTable .yic-pagination .pagination >li >input {
+  width: 50px;
+  height: 31px;
+  text-align: center;
+}
+.queryTable .yic-pagination: after {
+  clear: both;
+}

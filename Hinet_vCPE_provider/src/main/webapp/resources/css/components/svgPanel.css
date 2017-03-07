@@ -1,0 +1,25 @@
+.svgPanel {
+  position: relative;
+  overflow: auto;
+}
+.svgPanel .dragable {
+  cursor: move;
+}
+.svgPanel .clickable {
+  cursor: pointer;
+}
+.svgPanel .invisible {
+  opacity: 0;
+}
+.svgPanel .toolPanel {
+  position: fixed;
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  z-index: 10;
+}
+.svgPanel .toolPanel ul {
+  padding: 5px;
+  list-style: none;
+}

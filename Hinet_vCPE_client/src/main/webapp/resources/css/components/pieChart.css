@@ -1,0 +1,13 @@
+div.legend {
+  float: right;
+}
+div.legend > div {
+  margin: 3px;
+}
+div.legend > div span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-top: -3px;
+  vertical-align: middle;
+}

@@ -1,0 +1,108 @@
+#tableRearrangeSample {
+  position: fixed;
+  z-index: 1000;
+  padding: 8px;
+  height: 38px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border: 1px solid black;
+  background: white;
+  cursor: move;
+}
+
+.queryTable {
+  div.tableWrapper {
+    width: 100%;
+    overflow-x: auto;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+
+  table.table {
+    margin: auto;
+    width: auto;
+    table-layout: fixed;
+
+    .sortable {
+      cursor: pointer;
+    }
+
+    th {
+      text-align: center;
+    }
+
+    th, td {
+      padding: 0;
+      vertical-align: middle;
+    }
+
+    div.gridWrapper {
+      position: relative;
+      padding: 8px;
+      width: 100%;
+      height: 38px;
+      overflow-x: hidden;
+      overflow-y: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+
+      .glyphicon {
+        position: absolute;
+        right: 5px;
+        top: 11px;
+      }
+      
+      span.columnHandler {
+        display: inline-block;
+        width: 4px;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: transparent;
+
+        &.firstColumn {
+          right: initial;
+          left: 0;
+        }
+
+        &.resizeable {
+          cursor: col-resize;
+        }
+
+        &.rearrangeTarget {
+          background: blue;
+        }
+      }
+    }
+  }
+
+  .yic-pagination {
+    text-align: center;
+
+    .pagination {
+      margin: 0;
+
+      >li {
+        >a {
+          float: none;
+        }
+
+        >input {
+          width: 50px;
+          height: 31px;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .yic-pagination: after {
+    clear: both;
+  }
+}

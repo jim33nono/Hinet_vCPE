@@ -1,0 +1,4 @@
+label.btn input[type="radio"],
+label.btn input[type="checkbox"] {
+  display: none;
+}
