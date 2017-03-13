@@ -38,7 +38,7 @@ public class LoginController {
 		LOGGER.info("Logging user info:{}", userInfoService.findAll());
 		Optional<UserInfo> userInfo = userInfoService.findByUserIdAndPassword(userId, password);
 		if (userInfo.isPresent()) {
-			session.setAttribute("userId", userInfo.get().getUserId());
+			session.setAttribute(Utility.USER_ID_SESSION_KEY, userInfo.get().getUserId());
 				return "redirect:/accountManagement/index";
 
 		} else {
@@ -47,4 +47,12 @@ public class LoginController {
 		}
 
 	}
+	
+	@RequestMapping(value = "logout", method = RequestMethod.GET)
+	public String logout(HttpSession session) {
+		session.removeAttribute(Utility.USER_ID_SESSION_KEY);
+		LOGGER.info("Client logs out");
+		return "redirect:/login/index";
+	}
+	
 }

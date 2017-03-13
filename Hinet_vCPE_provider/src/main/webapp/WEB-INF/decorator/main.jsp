@@ -57,7 +57,7 @@
 							title="Administrator"> <i class="yic-icon-user"></i>
 						</a>
 							<ul class="dropdown-menu pull-right">
-								<li><a href="#" title="登出" data-action="logout"> 登出 </a></li>
+								<li><a href="../login/logout" title="登出" data-action="logout"> 登出 </a></li>
 							</ul></li>
 					</ul>
 				</div>

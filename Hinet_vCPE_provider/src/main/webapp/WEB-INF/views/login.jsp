@@ -39,7 +39,7 @@
 								<div>
 									<div class="form-group">
 										<input type="text" name="userId"
-											class="form-control input-lg" placeholder="請輸入帳號">
+											class="form-control input-lg" placeholder="請輸入帳號" autofocus>
 									</div>
 									<div class="form-group">
 										<input type="password" name="password"

@@ -48,5 +48,14 @@ public class LoginController {
 		}
 
 	}
+	
+	@RequestMapping(value = "logout", method = RequestMethod.GET)
+	public String logout(HttpSession session) {
+		session.removeAttribute(Utility.USER_ID_SESSION_KEY);
+		LOGGER.info("Client logs out");
+		return "redirect:/login/index";
+	}
+	
+	
 
 }
